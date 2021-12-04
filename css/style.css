@@ -234,3 +234,7 @@ hr{
 	font-size: 40px;
 	color: #fff;
 }
+
+iframe{
+	width: 100%;
+}
