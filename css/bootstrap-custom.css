@@ -97,7 +97,11 @@ a{
 }
 
 
-
+.btn{
+	background-color: #EAEAEA;
+	width: 100px;
+	margin-top: 15px;
+}
 
 
 
