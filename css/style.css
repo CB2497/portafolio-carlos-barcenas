@@ -188,6 +188,9 @@ footer{
 	text-align: center;
 }
 
+footer p{
+	margin-top: 40px;
+}
 
 hr{
 	color: #FFFFFF;
