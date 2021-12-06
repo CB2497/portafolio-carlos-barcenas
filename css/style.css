@@ -90,11 +90,12 @@ header .social-nav i{
 #seccion h2{
 	font-weight: bolder;
 	padding-top: 70px;
-	font-size: 60px;
+	font-size: 40px;
 }
 
 #seccion h3{
 	color: #FFD400;
+	font-size: 25px;
 }
 
 #seccion p{

@@ -78,12 +78,13 @@ a{
 	color:#4676fa;		
 	height: auto;
 	text-transform: uppercase;
+	
+	
 }
 .navbar-light .navbar-brand:hover {
  	color:#4676fa;
 }
 .navbar-light .navbar-brand img{
-	
 }
 
 
