@@ -288,12 +288,44 @@ hr{
 
 /*definición para celular*/
 @media(max-width:480px){
-	
+	#hero h1{
+		line-height: 75px;
+	}
 	header li{
 		margin-top: 15px;
 	}
 	header li{
 		margin-bottom: 10px;
+	}
+	
+	
+	#hero-produccion h1{
+		font-size: 70px;
+		line-height: 70px;
+		margin-top: 30px;	
+	}
+	
+	#hero-diseno h1{
+		font-size: 70px;
+		line-height: 70px;
+		margin-top: 30px;	
+	}
+	
+	#hero-animacion h1{
+		font-size: 70px;
+		line-height: 70px;
+		margin-top: 30px;	
+	}
+	
+	#seccion h2{
+		font-size: 30px;
+		line-height: 30px;
+		
+	}
+	#seccion h3{
+		font-size: 20px;
+		line-height: 20px;
+		
 	}
 }
 	
