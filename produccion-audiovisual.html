@@ -9,6 +9,7 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet">
 	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/BeerSlider.css" rel="stylesheet">
 	<link href="css/bootstrap-custom.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 
@@ -143,11 +144,59 @@
 			
 			
 			<div class="lazy-yt-wrapper wow fadeIn" data-wow-duration="2s" data-wow-delay="0.1s">
-			<div class="lazy-youtube" data-embed="jzg4Osc4K74">
+			<div class="lazy-youtube" data-embed="HMNU9jxDS1Y">
 				<div class="lazy-play-btn"></div>
 			</div>
 			</div>
 			
+			
+			<div class="container">
+				<h2 class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">Color Grading: Before & After</h2>
+				<h3>Usa el slider para ver el antes y después.</h3>
+				
+				<div id="slider" class="beer-slider" data-beer-label="Before">
+				  <img src="img/1- before.png" alt="1b">
+				  <div class="beer-reveal" data-beer-label="After">
+					<img src="img/1- after.png" alt="1a">
+				  </div>
+				</div>
+				
+				
+				<div id="slider" class="beer-slider" data-beer-label="Before">
+				  <img src="img/2- before.png" alt="2b">
+				  <div class="beer-reveal" data-beer-label="After">
+					<img src="img/2- after.png" alt="2a">
+				  </div>
+				</div>
+				
+				<div id="slider" class="beer-slider" data-beer-label="Before">
+				  <img src="img/3- before.png" alt="3b">
+				  <div class="beer-reveal" data-beer-label="After">
+					<img src="img/3- after.png" alt="3a">
+				  </div>
+				</div>
+				
+				<div id="slider" class="beer-slider" data-beer-label="Before">
+				  <img src="img/4- before.png" alt="4b">
+				  <div class="beer-reveal" data-beer-label="After">
+					<img src="img/4- after.png" alt="4a">
+				  </div>
+				</div>
+				
+				<div id="slider" class="beer-slider" data-beer-label="Before">
+				  <img src="img/5- before.png" alt="5b">
+				  <div class="beer-reveal" data-beer-label="After">
+					<img src="img/5- after.png" alt="5a">
+				  </div>
+				</div>
+				
+				<div id="slider" class="beer-slider" data-beer-label="Before">
+				  <img src="img/6- before.png" alt="6b">
+				  <div class="beer-reveal" data-beer-label="After">
+					<img src="img/6- after.png" alt="6a">
+				  </div>
+				</div>
+			</div>
 			
 			
 			
@@ -416,7 +465,14 @@
 	</footer>
 	
 
-	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.min.js"></script>	
+	<script src="js/BeerSlider.js"></script>
+	<script>
+		new BeerSlider(document.getElementById('slider'));
+	</script>
+	<script>
+  		new BeerSlider( document.getElementById( "beer-slider" ), { start: 0 } );
+	</script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 	<script src="js/wow.min.js"></script>
